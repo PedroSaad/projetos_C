@@ -2,7 +2,8 @@
 int main (void){
 	float x=0, y=0, resultado=0;
 	int op;
-	do{
+	do
+	{
 		printf("#################### CALCULADORA ###################");
 		printf("\n");
 		printf("\nInforme a operecao desejada:");
@@ -37,11 +38,6 @@ int main (void){
 		printf("\n O resulatado e:  %0.2f", resultado);
 		printf("\n Digite 1 para continuar: ");
 		scanf ("%i", &op);
-		
-	}while(op==1);
-	
-	
-	
-	
+	}
+	while(op==1);
 }
-
