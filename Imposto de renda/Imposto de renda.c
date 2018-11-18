@@ -42,5 +42,7 @@ int main()
 	{
 		imposto = (salario * 0.275) - 869.36;
 		printf ("Com o salario de: R$%0.01f\nCom aliquota de: 27.5%%\nE deducao de: R$869.36\nDeve pagar: R$%0.01f de imposto", salario, imposto);
-	}		
+	}
+	printf("\n");
+	system("pause");	
 }
